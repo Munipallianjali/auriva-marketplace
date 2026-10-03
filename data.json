@@ -1,0 +1,230 @@
+{
+  "products": [
+    {
+      "id": "a21d3544",
+      "name": "hand bag",
+      "category": "Bags",
+      "price": 500,
+      "oldPrice": 450,
+      "seller": "binnu",
+      "stock": 50,
+      "rating": 5,
+      "trend": 70,
+      "emoji": "✨",
+      "pattern": "new"
+    },
+    {
+      "id": "p1",
+      "name": "Pearl Drop Earrings",
+      "category": "Earrings",
+      "price": 599,
+      "oldPrice": 899,
+      "seller": "Luna Studio",
+      "rating": 4.9,
+      "stock": 28,
+      "trend": 92,
+      "emoji": "🤍",
+      "pattern": "pearl"
+    },
+    {
+      "id": "p2",
+      "name": "Moon Charm Necklace",
+      "category": "Necklaces",
+      "price": 749,
+      "oldPrice": 999,
+      "seller": "Mira Finds",
+      "rating": 4.8,
+      "stock": 19,
+      "trend": 88,
+      "emoji": "🌙",
+      "pattern": "moon"
+    },
+    {
+      "id": "p3",
+      "name": "Rose Gold Cuff",
+      "category": "Bracelets",
+      "price": 449,
+      "oldPrice": 699,
+      "seller": "Aster & Co.",
+      "rating": 4.7,
+      "stock": 35,
+      "trend": 81,
+      "emoji": "✨",
+      "pattern": "rose"
+    },
+    {
+      "id": "p4",
+      "name": "Daisy Everyday Ring",
+      "category": "Rings",
+      "price": 299,
+      "oldPrice": 449,
+      "seller": "Petal Lane",
+      "rating": 4.9,
+      "stock": 42,
+      "trend": 79,
+      "emoji": "🌼",
+      "pattern": "daisy"
+    },
+    {
+      "id": "p5",
+      "name": "Satin Bow Clip Set",
+      "category": "Hair",
+      "price": 349,
+      "oldPrice": 499,
+      "seller": "Bow & Bloom",
+      "rating": 4.8,
+      "stock": 12,
+      "trend": 95,
+      "emoji": "🎀",
+      "pattern": "bow"
+    },
+    {
+      "id": "p6",
+      "name": "Mini Shoulder Bag",
+      "category": "Bags",
+      "price": 899,
+      "oldPrice": 1299,
+      "seller": "Naya Edit",
+      "rating": 4.6,
+      "stock": 9,
+      "trend": 91,
+      "emoji": "👜",
+      "pattern": "bag"
+    },
+    {
+      "id": "p7",
+      "name": "Initial Charm Bracelet",
+      "category": "Gifts",
+      "price": 549,
+      "oldPrice": 799,
+      "seller": "Little Letters",
+      "rating": 4.9,
+      "stock": 22,
+      "trend": 86,
+      "emoji": "💖",
+      "pattern": "heart"
+    },
+    {
+      "id": "p8",
+      "name": "Crystal Hair Claw",
+      "category": "Hair",
+      "price": 279,
+      "oldPrice": 399,
+      "seller": "Shine Club",
+      "rating": 4.7,
+      "stock": 7,
+      "trend": 90,
+      "emoji": "💎",
+      "pattern": "crystal"
+    }
+  ],
+  "sellers": [
+    {
+      "id": "s1",
+      "name": "Luna Studio",
+      "city": "Hyderabad",
+      "products": 12,
+      "sales": 38400,
+      "status": "Active"
+    },
+    {
+      "id": "s2",
+      "name": "Mira Finds",
+      "city": "Bengaluru",
+      "products": 8,
+      "sales": 27100,
+      "status": "Active"
+    },
+    {
+      "id": "s3",
+      "name": "Aster & Co.",
+      "city": "Mumbai",
+      "products": 16,
+      "sales": 42200,
+      "status": "Active"
+    },
+    {
+      "id": "s4",
+      "name": "Petal Lane",
+      "city": "Hyderabad",
+      "products": 7,
+      "sales": 19800,
+      "status": "Review"
+    }
+  ],
+  "orders": [
+    {
+      "id": "AU1048",
+      "customer": "Priya",
+      "product": "Pearl Drop Earrings",
+      "amount": 599,
+      "status": "Delivered",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "AU1047",
+      "customer": "Sneha",
+      "product": "Satin Bow Clip Set",
+      "amount": 299,
+      "status": "Shipped",
+      "city": "Bengaluru"
+    },
+    {
+      "id": "AU1046",
+      "customer": "Ananya",
+      "product": "Moon Charm Necklace",
+      "amount": 749,
+      "status": "Processing",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "AU1045",
+      "customer": "Kavya",
+      "product": "Mini Shoulder Bag",
+      "amount": 899,
+      "status": "Delivered",
+      "city": "Chennai"
+    },
+    {
+      "id": "AU1044",
+      "customer": "Megha",
+      "product": "Initial Charm Bracelet",
+      "amount": 549,
+      "status": "Delivered",
+      "city": "Pune"
+    }
+  ],
+  "customers": 1296,
+  "events": [
+    {
+      "type": "view",
+      "productId": "p1",
+      "value": 1
+    },
+    {
+      "type": "view",
+      "productId": "p5",
+      "value": 1
+    },
+    {
+      "type": "cart",
+      "productId": "p5",
+      "value": 1
+    },
+    {
+      "type": "purchase",
+      "productId": "p5",
+      "value": 1
+    },
+    {
+      "type": "view",
+      "productId": "p6",
+      "value": 1
+    },
+    {
+      "type": "purchase",
+      "productId": "p1",
+      "value": 1
+    }
+  ]
+}
